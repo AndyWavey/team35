@@ -1,3 +1,47 @@
-*{
-background-color: green;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+  }
+
+  /* DESIGN */
+
+:root{
+    --ff-primary: 
+    --ff-secondary: 
+
+    --fw-reg:  
+    --fx-bold: 
+
+    --clr-txt:  
+    --clr-dark:  
+    --clr-accent: 
+    --clr-base:    
+
+    --fs-h1:    4rem;
+    --fs-h2: 1.50rem;
+    --fs-h3: 1.25rem;
+    --fs-body:  1rem;
+
+}
+
+@media (min-width: 800px) {
+  :root{
+    --fs-h1:  
+    --fs-h2:  
+    --fs-h3:  
+    --fs-body:
+  }
+}
+
+/* styles */
+
+body {
+
+  background: var(--clr-base);
+  color: var(--clr-txt);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+
 }
