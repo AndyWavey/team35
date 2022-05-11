@@ -10,13 +10,16 @@
     --ff-primary: 
     --ff-secondary: 
 
-    --fw-reg:  
-    --fx-bold: 
+    --fw-reg: 300;
+    --fx-bold: 900; 
 
-    --clr-txt:  
-    --clr-dark:  
-    --clr-accent: 
-    --clr-base:    
+    --clr-base:       #fefefe; /*hvid*/ 
+    --clr-txt:      #626674; /*grå*/
+    --clr-light:    #f6f6f7; /*lys grå*/
+    --clr-dark:     #173448; /*mørk blå*/
+    --clr-accent:   #e85c54; /*rød*/
+
+       
 
     --fs-h1:    4rem;
     --fs-h2: 1.50rem;
