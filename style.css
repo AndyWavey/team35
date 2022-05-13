@@ -13,7 +13,7 @@
     --fw-reg: 300;
     --fx-bold: 900; 
 
-    --clr-base:     #f7f4f4; /* pentia invinsible */ 
+    --clr-base:     #f7f4f4; /* pentia invisible */ 
     --clr-txt:      #666565; /* pentia dusk */
     --clr-light:    #5cbfcc; /* pentia aqua */
     --clr-dark:     #0020bf; /* pentia midnight blue */ 
@@ -78,5 +78,5 @@ h3 { font-size: var(--fs-h3) }
     /* FOOTER */ 
 .footer{
     background: var(--clr-dark);
-    color: var(--clr-light);
+    color: var(--clr-base);
 }
