@@ -13,11 +13,11 @@
     --fw-reg: 300;
     --fx-bold: 900; 
 
-    --clr-base:     #fefefe; /*hvid*/ 
-    --clr-txt:      #626674; /*grå*/
-    --clr-light:    #f6f6f7; /*lys grå*/
-    --clr-dark:     #173448; /*mørk blå*/
-    --clr-accent:   #e85c54; /*rød*/
+    --clr-base:     #f7f4f4; /* pentia invinsible */ 
+    --clr-txt:      #666565; /* pentia dusk */
+    --clr-light:    #5cbfcc; /* pentia aqua */
+    --clr-dark:     #6b9299; /* pentia octain */
+    --clr-accent:   #ff5b4c; /* pentia neon */
 
        
 
