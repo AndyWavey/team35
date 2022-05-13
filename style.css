@@ -71,6 +71,12 @@ h3 { font-size: var(--fs-h3) }
     /* CASES */ 
 
 
+
+
+
+   
+
+
     /* KARRIERE */ 
 
 
@@ -79,4 +85,23 @@ h3 { font-size: var(--fs-h3) }
 .footer{
     background: var(--clr-dark);
     color: var(--clr-base);
+}
+
+.footer_grid-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5em;
+  color: var(--clr-base);
+}
+
+.footer__grid-item1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+
+}
+.footer__grid-item10 a{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  color: inherit;
 }
