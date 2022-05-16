@@ -13,7 +13,7 @@
     --fw-reg: 300;
     --fx-bold: 900; 
 
-    --clr-base:     #f7f4f4; /* pentia invisible */ 
+    --clr-base:     #f6f4f4; /* pentia invisible */ 
     --clr-txt:      #666565; /* pentia dusk */
     --clr-light:    #5cbfcc; /* pentia aqua */
     --clr-dark:     #0020bf; /* pentia midnight blue */ 
@@ -82,18 +82,32 @@ h3 { font-size: var(--fs-h3) }
 
 .header__nav-menu-container{
   background-color: var(--clr-box);
+  color: var(--clr-base);
+  min-height: 25em;
+
 }
+
+.header_nav-menu-logo{
+  float: left;
+  margin-right: 2rem; 
+  
+}
+
 .header__nav-menu-items li{
   text-decoration: none;
   list-style-type: none;
-  display: inline;
   margin:0;
   padding: 0;
+  display: inline;
+  float: left;
 }
 
 .header__nav-menu-items a{
   text-decoration: none;
   color: inherit;
+  
+  
+
 }
 
 
@@ -106,7 +120,7 @@ h3 { font-size: var(--fs-h3) }
     color: var(--clr-base);
 }
 
-.footer_grid-container{
+.footer__grid-container{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 0.5em;
