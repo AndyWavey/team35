@@ -99,15 +99,16 @@ h3 { font-size: var(--fs-h3) }
   margin:0;
   padding: 0;
   display: inline;
-  float: left;
+  
+}
+.header__nav-menu-items ul{
+   text-align: center;
 }
 
 .header__nav-menu-items a{
+  display: inline-block;
   text-decoration: none;
   color: inherit;
-  
-  
-
 }
 
 
