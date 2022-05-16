@@ -69,6 +69,20 @@ h3 { font-size: var(--fs-h3) }
 
 
     /* CASES */ 
+    .footer__grid-container{
+      grid-template-columns: repeat(5, 1fr);
+      display: grid;
+      gap: 0.5em;
+
+
+    }
+
+    .footer__grid-item1{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      
+    }
+
 
 
 
@@ -118,6 +132,7 @@ h3 { font-size: var(--fs-h3) }
     /* FOOTER */ 
 .footer{
     background: var(--clr-dark);
+<<<<<<< Updated upstream
     color: var(--clr-base);
 }
 
@@ -139,4 +154,7 @@ h3 { font-size: var(--fs-h3) }
   grid-column-start: 1;
   grid-column-end: 2;
   color: inherit;
+=======
+    color: var(--clr-light);
+>>>>>>> Stashed changes
 }
