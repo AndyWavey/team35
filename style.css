@@ -78,6 +78,25 @@ h3 { font-size: var(--fs-h3) }
 
 
     /* KARRIERE */ 
+    /* HEADER */
+
+.header__nav-menu-container{
+  background-color: var(--clr-box);
+}
+.header__nav-menu-items li{
+  text-decoration: none;
+  list-style-type: none;
+  display: inline;
+  margin:0;
+  padding: 0;
+}
+
+.header__nav-menu-items a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
 
 
 
