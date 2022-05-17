@@ -181,8 +181,16 @@ h3 { font-size: var(--fs-h3) }
   cursor: pointer;
   font-weight: bold;
   margin-right:  10rem;
-  
+}
 
+.karriere__title{
+  margin-top: 3em;
+  text-align: center;
+}
+
+.karriere__jobbox1{
+  background-color: var(--clr-box);
+  color: var(--clr-base);
 }
 
     /* FOOTER */ 
@@ -203,10 +211,20 @@ h3 { font-size: var(--fs-h3) }
   grid-column-start: 1;
   grid-column-end: 2;
 
-
 }
+
+.footer__grid-container img{
+  width: 50%;
+}
+
 .footer__grid-item10 a{
   grid-column-start: 1;
   grid-column-end: 2;
   color: inherit;
 }
+
+.footer__grid-item4{
+  transform: rotate(-10 50 100);
+  
+}
+
