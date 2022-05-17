@@ -94,6 +94,7 @@ h3 { font-size: var(--fs-h3) }
   float: left;
   margin-left:2em;
   margin-top: 5em; 
+  width: 5%;
 }
 
 .header__nav-menu-items li{
@@ -577,6 +578,25 @@ h3 { font-size: var(--fs-h3) }
   margin-top: 10em;
   
 }
+
+.karriere_cv-box{
+  background-color: var(--clr-box_btn);
+  color: var(--clr-box);
+  height: 20em;
+  width: 20em;
+
+}
+
+
+
+.karriere_jobagent{
+  background-color: var(--clr-box_btn);
+  color: var(--clr-box);
+  height: 20em;
+  width: 20em;
+
+}
+
 
     /* FOOTER */ 
 .footer{
