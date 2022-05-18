@@ -168,7 +168,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 
-.artikel__btn{
+.karriere__artikel-btn{
   float:right;
   padding: 1em 1.8em;
   outline: none;
@@ -190,6 +190,9 @@ h3 { font-size: var(--fs-h3) }
   margin-top: 3em;
   text-align: center;
 }
+
+
+
 
 .karriere__jobbox1{
   background-color: var(--clr-box);
@@ -229,9 +232,9 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .karriere__jobbox_title2{
+
   background-color: var(--clr-box2);
   color: var(--clr-base);
-  margin-top: 5em;
   margin-left: 15em;
   text-align: center;
   font-size: var(--fs-h2);
@@ -579,8 +582,15 @@ h3 { font-size: var(--fs-h3) }
   
 }
 
-.karriere_cv-box{
-  background-color: var(--clr-box_btn);
+.karriere__cv-box-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5em;
+}
+
+.karriere__cv-box{
+    background-color: var(--clr-box_btn);
   color: var(--clr-box);
   height: 20em;
   width: 20em;
@@ -589,18 +599,19 @@ h3 { font-size: var(--fs-h3) }
 
 
 
-.karriere_jobagent{
+.karriere__jobagent{
   background-color: var(--clr-box_btn);
   color: var(--clr-box);
   height: 20em;
   width: 20em;
+ 
 
 }
 
 
     /* FOOTER */ 
 .footer{
-    background: var(--clr-dark);
+    background: var(--clr-box);
 }
 
 .footer__grid-container{
@@ -619,7 +630,8 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .footer__grid-container img{
-  width: 50%;
+ width: 50%;
+
 }
 
 .footer__grid-item10 a{
