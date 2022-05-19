@@ -8,7 +8,6 @@
 
 :root{
     --ff-primary: 'Gotham Light', sans-serif;
-    --ff-secondary: 
 
     --fw-reg: 700;
     --fx-bold: 900; 
@@ -71,9 +70,22 @@ h3 { font-size: var(--fs-h3) }
 
 
     /* CASES */ 
+    .main__title{
+      text-align: center;
+    }
 
+    .cases__grid-container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      column-gap: 1em;
+      row-gap: 1em;
+    }
 
-
+    .cases__grid-item img{
+      width: 100%;
+      
+    }
 
 
    
@@ -87,6 +99,7 @@ h3 { font-size: var(--fs-h3) }
   color: var(--clr-base);
   min-height: 25em;
   text-align: center;
+  
 }
 
 .header_nav-menu-logo{
@@ -100,8 +113,8 @@ h3 { font-size: var(--fs-h3) }
   padding: 0;
   display: inline-block;
   margin: 1rem;
+  text-align: center;
   
- 
 }
 
 
@@ -244,8 +257,6 @@ h3 { font-size: var(--fs-h3) }
   margin-left: 25em;
   top: 4em;
   text-align: left;
-  
-  
 }
 
 
@@ -630,6 +641,8 @@ h3 { font-size: var(--fs-h3) }
   height: 20em;
   width: 20em;
  }
+
+ /* KARIIERE SLUT */
 
 
     /* FOOTER */ 
