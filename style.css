@@ -7,10 +7,10 @@
     /* DESIGN */
 
 :root{
-    --ff-primary: 
+    --ff-primary: 'Gotham Light', sans-serif;
     --ff-secondary: 
 
-    --fw-reg: 300;
+    --fw-reg: 700;
     --fx-bold: 900; 
 
     --clr-base:     #f6f4f4; /* pentia invisible */ 
@@ -87,13 +87,10 @@ h3 { font-size: var(--fs-h3) }
   color: var(--clr-base);
   min-height: 25em;
   text-align: center;
-  
 }
 
 .header_nav-menu-logo{
-  float: left;
-  margin-left:2em;
-  margin-top: 5em; 
+  float: left; 
   width: 5%;
 }
 
@@ -101,14 +98,12 @@ h3 { font-size: var(--fs-h3) }
   text-decoration: none;
   list-style-type: none;
   padding: 0;
-  display: inline;
+  display: inline-block;
   margin: 1rem;
   
  
 }
-.header__nav-menu-items ul{
-   text-align: center; 
-}
+
 
 .header__nav-menu-items a{
   display: inline-block;
@@ -144,6 +139,10 @@ h3 { font-size: var(--fs-h3) }
 .header__hero-title{
   text-align: center;
   font-size: var(--fs-h1);
+}
+
+.header__main-title{ 
+  text-align: center;
 }
 
 .header__img img{
@@ -190,8 +189,6 @@ h3 { font-size: var(--fs-h3) }
   margin-top: 3em;
   text-align: center;
 }
-
-
 
 
 .karriere__jobbox1{
