@@ -2,7 +2,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
-  }
+  } 
 
     /* DESIGN */
 
@@ -47,7 +47,7 @@ body {
   color: var(--clr-txt);
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
-  line-height: 1.6;
+  line-height: 1.6; 
 
 }
 
@@ -60,7 +60,7 @@ h3{
   margin: 50px;
   padding: 10px;
 
-}
+} 
 
 
 h1 { font-size: var(--fs-h1) }
