@@ -195,7 +195,7 @@ h3 { font-size: var(--fs-h3) }
 
  /* Galleri billeder */
  .cases__galleri-billeder{
-   max-height: 300px;
+   max-height: 200px;
    width: 100vw;
    object-fit: cover;
    object-position: center;
