@@ -191,6 +191,13 @@ h3 { font-size: var(--fs-h3) }
 
  /* GALLERI */ 
 
+ .cases__galleri-title{
+  text-align: center;
+  font-size: var(--fs-h2);
+  --fx-bold: 900; 
+  color: var(--clr-txt);
+ }
+
  * {box-sizing:border-box}
 
  /* Galleri billeder */
