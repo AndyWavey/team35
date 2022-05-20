@@ -121,7 +121,54 @@ h3 { font-size: var(--fs-h3) }
 
 
 
+ /* GALLERI */ 
 
+ * {box-sizing:border-box}
+
+ /* Galleri billeder */
+ .cases__galleri-billeder{
+   max-height: 300px;
+   width: 100vw;
+   object-fit: cover;
+   object-position: center;
+ }
+ 
+ /* Slideshow container */
+ .cases__slideshow-container {
+   min-width: 500px;
+   position: relative;
+   margin: auto;
+ }
+ 
+ 
+ /* Number text (1/3 etc) */
+ .cases__numbertext {
+   color: transparent;
+   font-size: 12px;
+   padding: 8px 12px;
+   position: absolute;
+   top: 0;
+ }
+ 
+ /* Fading animation */
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+ 
+ @-webkit-keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+ 
+ @keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+ /* GALLERI SLUT */
+ 
 
 
 
@@ -726,50 +773,4 @@ h3 { font-size: var(--fs-h3) }
 
 
 
-  /* GALLERI */ 
-
-  * {box-sizing:border-box}
-
-/* Galleri billeder */
-.cases__galleri-billeder{
-  max-height: 300px;
-  width: 100vw;
-  object-fit: cover;
-  object-position: center;
-}
-
-/* Slideshow container */
-.cases__slideshow-container {
-  min-width: 500px;
-  position: relative;
-  margin: auto;
-}
-
-
-/* Number text (1/3 etc) */
-.cases__numbertext {
-  color: transparent;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-/* GALLERI SLUT */
+ 
