@@ -763,7 +763,7 @@ h3 { font-size: var(--fs-h3) }
   
 }
 
-.footer__grid-item1{
+.footer__grid-item{
   grid-column-start: 1;
   grid-column-end: 2;
 
@@ -771,6 +771,7 @@ h3 { font-size: var(--fs-h3) }
 
 .footer__grid-container img{
  width: 50%;
+ margin-top: 20px;
 
 }
 
