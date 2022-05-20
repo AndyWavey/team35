@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="style.css">
     <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+    <script src="sorting.js" defer></script> 
 </head>
 
 
@@ -34,18 +35,27 @@
     <main>
         <h1 class="main__title"> CASES</h1>
 
-        <div class="cases__grid-container">
+
+        <div id="cases__sorting-container">
+            <button class="btn active" onclick="filterSelection('all')"> Vis alle</button>
+            <button class="btn" onclick="filterSelection('ddu')"> Digital design og UX </button>
+            <button class="btn" onclick="filterSelection('dt')">Digital transformation</button>
+            <button class="btn" onclick="filterSelection('apps')"> Apps</button>
+          </div>
+
+
+        <div id="cases__grid-container">
                 <div id="myModal"class="cases__grid-item"><img src="images/pentia_placeholder.PNG" alt="">
                 
                 </div>
-                <div class="cases__grid-item"><img src="images/pentia_placeholder.PNG" alt=""></div>               
-                <div class="cases__grid-item"><img src="images/pentia_placeholder.PNG" alt=""></div>
-                <div class="cases__grid-item"><img src="images/pentia_placeholder.PNG" alt=""></div>
-                <div class="cases__grid-item"><img src="images/pentia_placeholder.PNG" alt=""></div>
-                <div class="cases__grid-item"><img src="images/pentia_placeholder.PNG" alt=""></div>
-                <div class="cases__grid-item"><img src="images/pentia_placeholder.PNG" alt=""></div>
-                <div class="cases__grid-item"><img src="images/pentia_placeholder.PNG" alt=""></div>
-                <div class="cases__grid-item"><img src="images/pentia_placeholder.PNG" alt=""></div>
+                <div class="cases__grid-item apps"><img src="images/pentia_placeholder.PNG" alt=""></div>               
+                <div class="cases__grid-item dt"><img src="images/pentia_placeholder.PNG" alt=""></div>
+                <div class="cases__grid-item apps"><img src="images/pentia_placeholder.PNG" alt=""></div>
+                <div class="cases__grid-item ddu"><img src="images/pentia_placeholder.PNG" alt=""></div>
+                <div class="cases__grid-item ddu"><img src="images/pentia_placeholder.PNG" alt=""></div>
+                <div class="cases__grid-item apps"><img src="images/pentia_placeholder.PNG" alt=""></div>
+                <div class="cases__grid-item ddu"><img src="images/pentia_placeholder.PNG" alt=""></div>
+                <div class="cases__grid-item dt"><img src="images/pentia_placeholder.PNG" alt=""></div>
         </div>
 
 
@@ -67,6 +77,5 @@
         <div class="footer__grid-item10"><p>Kontakt os <br> <a href="https://dk.linkedin.com/company/pentia-as?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn</a> <br> <a href="https://pentia.dk/om-pentia/privatlivspolitik/?fbclid=IwAR0190UGCpln4w8Cg32CvbEnA7zOuTZNcB28aqqfY2kGz8tLl_iqUBOmlUY ">Privatlivspolitik</a> <br> <a href="https://pentia.dk/om-pentia/presse/?fbclid=IwAR1a_qhKZgRF0djBXjrVLZSDd_TQOy6kwIjxjPO8N5eF2wAPo54Tt9NTTGU">Presse</a> </p></div>
     </div>
 </footer>
-
 </body>
 </html>
