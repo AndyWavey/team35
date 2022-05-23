@@ -94,10 +94,14 @@ h3 { font-size: var(--fs-h3) }
     .cases__grid-container {
       overflow: hidden;
     }
+    .cases__infobox-container{
+      background-color: #0020bf;
+      width: 1%;
+
+    }
     .cases__infobox-item{
       width: 1%;
     }
-
     
     
     /* sorting  */
@@ -365,14 +369,13 @@ display: grid;
 } 
 
 .karriere__jobbox_title2{
-  position: relative;
+  
   top: 2em;
   background-color: var(--clr-box2);
   color: var(--clr-base);
   margin-left: 15em;
-  text-align: left;
+
   font-size: var(--fs-h2);
-  
   
 }
 .karriere__jobbox-text{
@@ -421,6 +424,7 @@ display: grid;
 }
 
 .karriere__jobbox_title2{
+  position: relative;
   background-color: var(--clr-box2);
   color: var(--clr-base);
   margin-top: 5em;
@@ -817,7 +821,7 @@ display: grid;
 
 
 
-/* TESTING MODAL */ 
+/*MODAL START */ 
 #myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -904,4 +908,4 @@ box-shadow: 0px 0px 50px -6px #000;
 }
 
 
-/* TESTING MODAL SLUT */ 
+/*MODAL SLUT */ 
