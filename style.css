@@ -185,7 +185,14 @@ h3 { font-size: var(--fs-h3) }
  }
  /* GALLERI SLUT */
  
+.cases__infobox-container{
+display: grid;
 
+}
+
+.cases__infobox-title{
+  text-align: center;
+}
 
 
 
@@ -208,7 +215,10 @@ h3 { font-size: var(--fs-h3) }
 
 .header_nav-menu-logo{
   float: left; 
-  width: 5%;
+  width: 3%;
+  margin-left: 1em;
+  margin-top: 1em;
+  cursor: pointer;
 }
 
 .header__nav-menu-items li{
@@ -218,16 +228,21 @@ h3 { font-size: var(--fs-h3) }
   display: inline-block;
   margin: 1rem;
   text-align: center;
-  
 }
 
 
 .header__nav-menu-items a{
-  display: inline-block;
+  
+  float: left;
   text-decoration: none;
   color: inherit;
   margin-top: 5em;
+  text-align: center;
   
+}
+
+.header__nav-menu-items a:hover{
+  text-decoration: underline;
 }
 
 .header__button-call-to-action{
@@ -254,7 +269,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .header__hero-title{
-  text-align: center;
+ text-align: center;
   font-size: var(--fs-h1);
 }
 
@@ -318,8 +333,8 @@ h3 { font-size: var(--fs-h3) }
   
 }
 .karriere__jobbox1 img{
-  width: 8%;
-  margin-left: 5em;
+  width: 15%;
+  margin-right: 15em;
   margin-top: 1em;
   float: left;
   position: absolute;
@@ -702,6 +717,8 @@ h3 { font-size: var(--fs-h3) }
   flex-direction: row;
   justify-content: space-around;
   margin-top: 5em;
+  
+  
 }
 
 .karriere__cv-box{
@@ -709,7 +726,16 @@ h3 { font-size: var(--fs-h3) }
   color: var(--clr-box);
   height: 20em;
   width: 20em;
+  
 }
+
+.karriere__jobagent{
+  background-color: var(--clr-box_btn);
+  color: var(--clr-box);
+  height: 20em;
+  width: 20em;
+  
+ }
 
 .karriere__cv-box p, .karriere__jobagent  p{
   margin-top: 2em;
@@ -739,12 +765,6 @@ h3 { font-size: var(--fs-h3) }
 }
 
 
-.karriere__jobagent{
-  background-color: var(--clr-box_btn);
-  color: var(--clr-box);
-  height: 20em;
-  width: 20em;
- }
 
  /* KARIIERE SLUT */
 
