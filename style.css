@@ -16,7 +16,7 @@
     --clr-txt:      #666565; /* pentia dusk */
     --clr-light:    #5cbfcc; /* pentia aqua */
     --clr-dark:     #0020bf; /* pentia midnight blue */ 
-    --clr-box:      #6b9299; /* pentia octain */
+    --clr-box:      #6c9299; /* pentia octain */
     --clr-accent:   #ff5b4c; /* pentia neon */
     --clr-box_btn:  #DCE4E5; /* pentia octane 25%*/
     --clr-box2:     #B8C7CB; /* pentia octane 50%*/
@@ -214,19 +214,37 @@ display: grid;
     /* HEADER */
 
 .header__nav-menu-container{
-  background-color: var(--clr-box);
-  color: var(--clr-base);
-  min-height: 25em;
-  text-align: center;
+    background-color:hsl(189, 18%, 51%, .6);
+    color: var(--clr-base);
+    min-height: 25em;
+    text-align: center;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
   
 }
-
+.karriere__video__container{
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+.karriere__hero-video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -100;
+  transform: translateY(-50%) translateX(-50%);
+}
 .header__nav-menu-logo{
   float: left; 
   width: 3%;
   margin-left: 1em;
   margin-top: 1em;
   cursor: pointer;
+  
 }
 
 .header__nav-menu-items li{
