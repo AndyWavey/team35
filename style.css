@@ -214,7 +214,7 @@ display: grid;
     /* HEADER */
 
 .header__nav-menu-container{
-    background-color:hsl(189, 18%, 51%, .6);
+    background-color:hsl(189, 18%, 51%, .7);
     color: var(--clr-base);
     min-height: 25em;
     text-align: center;
