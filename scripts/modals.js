@@ -1,4 +1,4 @@
-const images = document.querySelectorAll(".gallery__item img");
+const images = document.querySelectorAll("cases__grid-item img");
 let imgIndex
 let imgSrc;
 // get images src onclick
@@ -15,6 +15,7 @@ images.forEach((img, i) => {
 let imgModal = (src) => {
     const modal = document.createElement("div");
     modal.setAttribute("class", "modal");
+        console.log("virker jeg?");
     //add modal to the parent element 
     document.querySelector(".main").append(modal);
     //adding image to modal
@@ -24,7 +25,7 @@ let imgModal = (src) => {
     const closeBtn = document.createElement("i");
     closeBtn.setAttribute("class", "fas fa-times closeBtn");
     //close function
-    closeBtn.onclick = () => {
+    close.onclick = () => {
         modal.remove();
     };
 //next and previous buttons
@@ -48,7 +49,7 @@ let nextImg = () => {
     //check if it is the the last image
     if (imgIndex >= images.length) {
         imgIndex = 0
-    }
+    } console.log(imgIndex)
     //return src of the new image
     return images[imgIndex].src;
 };

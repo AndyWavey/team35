@@ -84,7 +84,11 @@ h3 { font-size: var(--fs-h3) }
 
     .cases__grid-item img{
       width: 100%;
-      
+  
+    }
+
+    .cases__grid-item{
+      display: none; 
     }
 
     .cases__grid-container {
@@ -799,7 +803,7 @@ display: grid;
   margin-left: 2.5em;
 }
 
-.footer__grid-item10 a{
+.footer__grid-item1 a{
   grid-column-start: 1;
   grid-column-end: 2;
   color: inherit;
@@ -824,7 +828,6 @@ display: grid;
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
