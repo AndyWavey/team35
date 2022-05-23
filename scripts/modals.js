@@ -1,4 +1,4 @@
-const images = document.querySelectorAll("cases__grid-item img");
+const images = document.querySelectorAll(".cases__grid-item img");
 let imgIndex
 let imgSrc;
 // get images src onclick
@@ -13,9 +13,8 @@ images.forEach((img, i) => {
 });
 //creating the modal
 let imgModal = (src) => {
-    const modal = document.createElement("div");
+    const modal = document.createElement("div"); 
     modal.setAttribute("class", "modal");
-        console.log("virker jeg?");
     //add modal to the parent element 
     document.querySelector(".main").append(modal);
     //adding image to modal
@@ -23,9 +22,9 @@ let imgModal = (src) => {
     newImage.setAttribute("src", src);
     //creating the close button
     const closeBtn = document.createElement("i");
-    closeBtn.setAttribute("class", "fas fa-times closeBtn");
+    closeBtn.setAttribute("class", "fas fa-times close");
     //close function
-    close.onclick = () => {
+    closeBtn.onclick = () => {
         modal.remove();
     };
 //next and previous buttons
@@ -40,7 +39,7 @@ prevBtn.setAttribute("class", "fas fa-angle-left prevBtn");
 // change the src of current image to the src of pevious image
 prevBtn.onclick = () => {
     newImage.setAttribute("src", prevImg())
-}
+};
 modal.append(newImage, closeBtn, nextBtn, prevBtn);
 };
 //next image function
@@ -62,5 +61,5 @@ let prevImg = () => {
         imgIndex = images.length - 1
     }
     //return src of previous image
-    return images[imgIndex].src
-}
+    return images[imgIndex].src;
+};
