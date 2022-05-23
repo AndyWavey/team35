@@ -94,6 +94,11 @@ h3 { font-size: var(--fs-h3) }
     .cases__grid-container {
       overflow: hidden;
     }
+    .cases__infobox-item{
+      width: 1%;
+    }
+
+    
     
     /* sorting  */
     /* The "show" class is added to the filtered elements */
@@ -232,12 +237,11 @@ display: grid;
   display: inline-block;
   margin: 1rem;
   text-align: center;
+
 }
 
 
 .header__nav-menu-items a{
-  
-  float: left;
   text-decoration: none;
   color: inherit;
   margin-top: 5em;
@@ -904,7 +908,5 @@ box-shadow: 0px 0px 50px -6px #000;
   }
 }
 
-.w3-btn-floating {
 
-}
 /* TESTING MODAL SLUT */ 
