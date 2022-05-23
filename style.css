@@ -772,7 +772,11 @@ h3 { font-size: var(--fs-h3) }
 .footer__grid-container img{
  width: 50%;
  margin-top: 20px;
+ margin-left: 1em;
 
+}
+.footer__grid-container p{
+  margin-left: 2.5em;
 }
 
 .footer__grid-item10 a{
