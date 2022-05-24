@@ -27,6 +27,7 @@
     --fs-h2: 1.25rem;
     --fs-h3: 0.7rem;
     --fs-body:  0.7rem;
+    --fs-footer: 0.5rem;
 
 }
 
@@ -36,6 +37,7 @@
     --fs-h2:  2.25rem;
     --fs-h3:  1.50rem;
     --fs-body:   1.3rem;
+    --fs-footer: 0.7rem;
   }
 }
 
@@ -873,6 +875,7 @@ display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 0.5em;
   color: var(--clr-base);
+  place-items: center;
   
 }
 
@@ -883,13 +886,14 @@ display: grid;
 }
 
 .footer__grid-container img{
- width: 50%;
+ width: 35%;
  margin-top: 20px;
- margin-left: 1em;
+ margin-left: 3.7em;
 
 }
 .footer__grid-container p{
-  margin-left: 2.5em;
+  place-items: center;
+  font-size: var(--fs-footer);
 }
 
 .footer__grid-container a{
