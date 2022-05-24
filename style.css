@@ -294,6 +294,13 @@ display: grid;
   z-index: -100;
   transform: translateY(-50%) translateX(-50%);
 }
+
+.karriere__thumbnail{
+  margin-left: 3em;
+ padding-top: 2.6em;
+}
+
+
 .header__nav-menu-logo{
   float: left; 
   width: 3%;
