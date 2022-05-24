@@ -20,7 +20,7 @@
     --clr-accent:   #ff5b4c; /* pentia neon */
     --clr-box_btn:  #DCE4E5; /* pentia octane 25%*/
     --clr-box2:     #B8C7CB; /* pentia octane 50%*/
-
+    --clr-infobox:  #F6F6F7; /*  pentia grå */
        
 
     --fs-h1:   2rem;
@@ -96,14 +96,67 @@ h3 { font-size: var(--fs-h3) }
       overflow: hidden;
     }
     .cases__infobox-container{
-      background-color: #0020bf;
-      width: 1%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      background-color: var(--clr-infobox);
+      width: 100%;
 
     }
-    .cases__infobox-item{
-      width: 1%;
+    .cases__infobox-item1{
+      display: grid;
+      place-items: center;
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+    .cases__infobox-item1 img{
+      width: 20%;
     }
     
+    .cases__infobox-item2{
+      display: grid;
+      place-items: center;
+      grid-column-start: 3;
+      grid-column-end: 4;
+
+    }
+
+    .cases__infobox-item2 img{
+      width: 20%;
+    }
+
+    .cases__infobox-title{
+      text-align: center;
+    }
+    .cases__infobox-item3{
+      display: grid;
+      place-items: center;
+      grid-column-start: -4;
+      grid-column-end: -3;
+    }
+    .cases__infobox-item4{
+      display: grid;
+      grid-column-start: -3;
+      grid-column-end: -2;
+      place-items: center;
+    }
+
+    .cases__button-call-to-action{
+      outline: none;
+      border: none;
+      background-color: var(--clr-accent);
+      color: var(--clr-base);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 15px;
+      overflow: hidden;
+      transition: 0.2s;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      height: 3em;
+      width: 15em;
+    }
     
     /* sorting  */
     /* The "show" class is added to the filtered elements */
