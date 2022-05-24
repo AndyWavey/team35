@@ -879,10 +879,11 @@ display: grid;
   margin-left: 2.5em;
 }
 
-.footer__grid-item1 a{
+.footer__grid-container a{
   grid-column-start: 1;
   grid-column-end: 2;
   color: inherit;
+  text-decoration: none;
 }
 
 .footer__grid-item4{
