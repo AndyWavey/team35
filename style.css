@@ -801,11 +801,13 @@ display: grid;
   
 }
 
-.karriere__cv-box{
+.karriere__cv-box {
   background-color: var(--clr-box_btn);
   color: var(--clr-box);
   height: 20em;
-  width: 20em;
+  width: 30em;
+  margin-left: 6.3em;
+  margin-right: 1em;
   
 }
 
@@ -813,9 +815,11 @@ display: grid;
   background-color: var(--clr-box_btn);
   color: var(--clr-box);
   height: 20em;
-  width: 20em;
+  width: 30em;
+  margin-right: 6.3em;
+  margin-left: 1em;
   
- }
+ } 
 
 .karriere__cv-box p, .karriere__jobagent  p{
   margin-top: 2em;
@@ -823,6 +827,11 @@ display: grid;
   margin-right: 20%;
   font-size: var(--fs-body);
   width: 60%;
+}
+
+.karriere__cv-box-titel{
+  margin-left: 17%;
+  font-weight: var(--fx-bold);
 }
 
 .karriere__cv-box--btn{
