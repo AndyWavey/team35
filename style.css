@@ -263,9 +263,6 @@ display: grid;
   text-align: center;
 }
 
-
-
-
     /* KARRIERE */ 
     /* HEADER */
 
@@ -411,9 +408,7 @@ display: grid;
   text-align: center;
 }
 
-.karriere__jobbox-container{
-  
-}
+
 .karriere__jobbox1{
   background-color: var(--clr-box);
   color: var(--clr-base); 
@@ -962,7 +957,7 @@ box-shadow: 0px 0px 50px -6px #000;
 
 /* The Close Button */
 .close {
-  position: fixed;
+  position: absolute;
   top: 15px;
   right: 35px;
   color: #f1f1f1;
@@ -974,14 +969,12 @@ box-shadow: 0px 0px 50px -6px #000;
 
 .nextBtn{
   position: absolute;
-  top: 125px;
+  top: 75px;
   right: 35px;
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s; 
-  right: 0px;
-  margin-right: 0.3em;
 }
 .prevBtn{
   position: absolute;
@@ -991,15 +984,7 @@ box-shadow: 0px 0px 50px -6px #000;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s; 
-  left: 0px;
-  margin-left: 0.3em;
 }
-
-.nextBtn, .prevBtn{
-  margin-top: 18%;
-  position: fixed;
-}
-
 .close:hover,
 .close:focus {
   color: #bbb;
