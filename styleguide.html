@@ -5,97 +5,38 @@
     <meta charset="utf-8">
     <title>Style Guide Pentia</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    
-    <script type="text/javascript" src="java.js" defer></script>
-    <script type="text/javascript" src="main.js" defer></script>
+      
+    <script type="text/javascript" src="search.js" defer></script>
   </head>
   
   <body>
-<div class="grid">
-  <div class="v0">
-<img src="pictures/ucl.png" id="ucl">
-  </div>
-  <div class="v1"><h1 id="nav-overskrift">Grundlæggende</h1>
+    <header>
 
-<ul class="nav-liste">
-
-<li>
-<a class="active" href="index.html">
-<img class="iconer" src="pictures/iconer/home.png">
-<span class="link-navn">Forside</span>
-</a>
-</li>
-
-<li>
-<a href="farv.html">
-<img class="iconer" src="pictures/iconer/iconer-hvid/color.png">
-<span class="link-navn">Farver</span>
-</a>
-</li>
-
-<li>
-<a href="typ.html">
-<img class="iconer" src="pictures/iconer/iconer-hvid/text.png">
-<span class="link-navn">Typografi</span>
-</a>
-</li>
-
-<li>
-<a href="knap.html">
-<img class="iconer" src="pictures/iconer/iconer-hvid/button.png">
-<span class="link-navn">Knapper</span>
-</a>
-</li>
-
-<li>
-<a href="iko.html">
-  <img class="iconer" src="pictures/iconer/iconer-hvid/png.png">
-<span class="link-navn">Ikoner</span>
-</a>
-</li>
-
-<li>
-<a href="logo.html">
-  <img class="iconer" src="pictures/iconer/iconer-hvid/screen.png">
-<span class="link-navn">Logoer</span>
-</a>
-</li>
-
-
-<li>
-<a href="menu.html">
-  <img class="iconer" src="pictures/iconer/iconer-hvid/menu-1.png">
-<span class="link-navn">Menu</span>
-</a>
-</li>
-
-
-
-</ul>
-  </div>
-
-
-    <div class="v2">  <h1 id="h1-typ1">Pentias Style Guide</h1>
-      <br>
-      <h1 id="h1-font1">Pentias Style Guide</h1>
-<h3 id="h3-for">Find de elementer du søger i menuen til venstre.</h3>
-<img class="gla" src="pictures/gla.jpg" alt="gla" id="gla"></img>
-<br>
-<br>
-
-<button id="myBtn">Se mere</button>
-
-
+      <div class="styleguide__header">
+          <div class="styleguide__header-logo"><img src="images/Logoer/pentia_logo_vertical-04.svg" alt="pentia logo">
+        </div>
     </div>
 
+    <nav class="styleguide__nav-menu">
+      <ul><img class="styleguide__ikoner" src="images/Ikoner til styleguide/forside.png" alt="forside ikon"><a href="">Forside</a></ul>
+      <ul> <img class="styleguide__ikoner" src="images/Ikoner til styleguide/farver.png" alt="forside ikon"><a href="">Farver</a></ul>
+      <ul><img class="styleguide__ikoner" src="images/Ikoner til styleguide/typografi.png" alt="forside ikon"><a href="">Typografi</a></ul>
+      <ul><img class="styleguide__ikoner" src="images/Ikoner til styleguide/knapper.png" alt="forside ikon"><a href="">Knapper</a></ul>
+      <ul><img class="styleguide__ikoner" src="images/ikoner/odense.png" alt="forside ikon"><a href="">Ikoner</a></ul>
+      <ul><img class="styleguide__ikoner" src="images/Logoer/pentia_logo_vertical-03.svg" alt="forside ikon"><a href="">Logoer</a></ul>
+      <ul><img class="styleguide__ikoner" src="images/Ikoner til styleguide/menu.png" alt="forside ikon"><a href="">Menu</a></ul>
+    </nav>
+  </header>
+  <main>
+    <div class="styleguide__main-title"><h1>PENTIA
+      STYLEGUIDE</h1></div>
 
-
+      <div class="styleguide__searchbar">
+        <p class="styleguide__search_text">Søg i Pentias styleguide</p>
+        <form class="search" autocomplete="off"><input type="text" name="q" id="q" onKeyUp="showResults(this.value)"/>
+            <div id="result"></div>
+        </form>
     </div>
-</div>
-
-
-
-
+  </main>
   </body>
 </html>

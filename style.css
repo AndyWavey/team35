@@ -1382,9 +1382,66 @@ box-shadow: 0px 0px 50px -6px #000;
         font-weight: bold;
         width: 60%;
       }
-    
-          
-    
-    
+
     
     }
+  
+
+
+  
+   
+   
+   
+/**************** STYLE GUIDE START ****************/
+
+
+.styleguide__header{
+  background-color: #B8C7CB;
+}
+.styleguide__main-title{
+  margin-left: 50%;
+  margin-right: 50%;
+  font-size: var(--fs-h1);
+  text-align: left;
+  white-space: nowrap;
+  
+}
+.styleguide__header-logo img{
+ position: relative;
+ width: 7%;
+ margin-top: 1em;
+ margin-left: 1em;
+}
+.styleguide__nav-menu{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-box);
+  color: var(--clr-base);
+  width: 20%;
+  height: 60em;
+  min-height: 100%;
+  position: absolute;
+  font-size: var(--fs-h3);
+}
+
+.styleguide__nav-menu a{
+  color: inherit;
+  text-decoration: none;
+  margin-left: 1em;
+
+}
+
+.styleguide__ikoner{
+  width: 10%; 
+  
+}
+
+.styleguide__searchbar{
+  display: grid;
+  place-items: center;
+
+}
+
+
+/**************** STYLE GUIDE SLUT ****************/
+
