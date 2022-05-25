@@ -155,7 +155,7 @@ h3 { font-size: var(--fs-h3) }
       color: var(--clr-base);
       text-transform: uppercase;
       letter-spacing: 2px;
-      font-size: 15px;
+      font-size: 14px;
       overflow: hidden;
       transition: 0.2s;
       border-radius: 20px;
@@ -163,6 +163,8 @@ h3 { font-size: var(--fs-h3) }
       font-weight: bold;
       height: 3em;
       width: 15em;
+      min-width: 8em;
+      max-width: 10em;
     }
     
     /* sorting  */
