@@ -531,15 +531,6 @@ display: grid;
   margin-top: 10em;
 }
 
-.karriere__jobbox_title2{
-  background-color: var(--clr-box2);
-  color: var(--clr-base);
-  margin-top: 5em;
-  margin-left: 15em;
-  text-align: center;
-  font-size: var(--fs-h2);
-}
-
 .karriere__jobbox3{
   background-color: var(--clr-box);
   color: var(--clr-base); 
