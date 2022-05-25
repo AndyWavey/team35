@@ -518,16 +518,6 @@ display: grid;
   margin-top: 22em;
 } 
 
-.karriere__jobbox_title2{
-  
-  top: 2em;
-  background-color: var(--clr-box2);
-  color: var(--clr-base);
-  margin-left: 15em;
-
-  font-size: var(--fs-h2);
-}
-
 .karriere__jobbox-text{
   position: relative;
   margin-left: 17.4em;
@@ -577,10 +567,15 @@ display: grid;
   background-color: var(--clr-box2);
   color: var(--clr-base);
   margin-top: 5em;
-  margin-left: 15em;
-  text-align: center;
+  margin-right: 7em;
+  margin-left: 10em;
+  
   font-size: var(--fs-h2);
+  top: 2.1em;
+  width: 18.31em;
+  text-align: left;
 }
+
 
 .karriere__jobbox_title2 p{
   margin-top: 5em;
@@ -591,15 +586,6 @@ display: grid;
   margin-left: 10em;
   text-align: left;
   margin-top: 10em;
-}
-
-.karriere__jobbox_title2{
-  background-color: var(--clr-box2);
-  color: var(--clr-base);
-  margin-top: 5em;
-  margin-left: 15em;
-  text-align: center;
-  font-size: var(--fs-h2);
 }
 
 .karriere__jobbox3{
