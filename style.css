@@ -132,6 +132,10 @@ h3 { font-size: var(--fs-h3) }
     background-color: #DCE4E5;
     }
 
+    .cases__modal-text{
+      padding: 1.7em;
+      
+    }
 
     .main__title{
       text-align: center;
