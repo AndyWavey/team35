@@ -62,7 +62,6 @@ h3{
   line-height: 1.1;
   margin: 50px;
   padding: 10px;
-
 } 
 
 
@@ -87,7 +86,6 @@ h3 { font-size: var(--fs-h3) }
 
     .cases__grid-item img{
       width: 100%;
-  
     }
 
     .cases__grid-item{
@@ -97,6 +95,7 @@ h3 { font-size: var(--fs-h3) }
     .cases__grid-container {
       overflow: hidden;
     }
+
     .cases__infobox-container{
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -111,6 +110,7 @@ h3 { font-size: var(--fs-h3) }
       grid-column-start: 2;
       grid-column-end: 3;
     }
+
     .cases__infobox-item1 img{
       width: 20%;
     }
@@ -120,7 +120,6 @@ h3 { font-size: var(--fs-h3) }
       place-items: center;
       grid-column-start: 3;
       grid-column-end: 4;
-
     }
 
     .cases__infobox-item2 img{
@@ -130,12 +129,14 @@ h3 { font-size: var(--fs-h3) }
     .cases__infobox-title{
       text-align: center;
     }
+
     .cases__infobox-item3{
       display: grid;
       place-items: center;
       grid-column-start: -4;
       grid-column-end: -3;
     }
+
     .cases__infobox-item4{
       display: grid;
       grid-column-start: -3;
@@ -192,15 +193,7 @@ h3 { font-size: var(--fs-h3) }
   grid-template-rows: repeat(3, 1fr);
 }
 
-
-
-
-
-
-
-
- /* GALLERI */ 
-
+    /* GALLERI TANIA */ 
  .cases__galleri-title{
   text-align: center;
   font-size: var(--fs-h2);
@@ -256,16 +249,16 @@ h3 { font-size: var(--fs-h3) }
  
 .cases__infobox-container{
 display: grid;
-
-}
+  }
 
 .cases__infobox-title{
   text-align: center;
 }
+    /* CASES SLUT */ 
 
     /* KARRIERE */ 
+    
     /* HEADER */
-
 .header__nav-menu-container{
     background-color:hsl(189, 18%, 51%, .7);
     color: var(--clr-base);
@@ -275,8 +268,8 @@ display: grid;
     z-index: 9999;
     top: 0;
     width: 100%;
-  
 }
+
 .karriere__video__container{
   height: 500px;
   overflow: hidden;
@@ -291,6 +284,7 @@ display: grid;
   z-index: -100;
   transform: translateY(-50%) translateX(-50%);
 }
+  /* HEARDER SLUT */ 
 
 .karriere__thumbnail{
   margin-left: 3em;
@@ -301,7 +295,6 @@ display: grid;
   background-color: var(--clr-box2);
   margin-left: 2.5em;
   margin-right: 2.5em;
-
 }
 
 
@@ -310,8 +303,7 @@ display: grid;
   width: 3%;
   margin-left: 1em;
   margin-top: 1em;
-  cursor: pointer;
-  
+  cursor: pointer; 
 }
 
 .header__nav-menu-items li{
@@ -321,7 +313,6 @@ display: grid;
   display: inline-block;
   margin: 1rem;
   text-align: center;
-
 }
 
 
@@ -329,8 +320,7 @@ display: grid;
   text-decoration: none;
   color: inherit;
   margin-top: 5em;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 .header__nav-menu-items a:hover{
@@ -363,7 +353,6 @@ display: grid;
 .header__hero-title{
  text-align: center;
  font-size: var(--fs-h1);
- 
 }
 
 .header__main-title{ 
@@ -376,21 +365,21 @@ display: grid;
   margin-right: auto;
   max-width: 90%;
 }
+
 .karriere__text1{
   text-align: left;
-  
 }
+
 .karriere__text2{
   text-align: center;
   font-weight: 400;
-  font-size: var (--fs-h3);
-  
+  font-size: var (--fs-h3); 
 }
+
 .karriere__text3{
   font-weight: 400;
   text-align: left;
 }
-
 
 .karriere__artikel-btn{
   float:right;
@@ -419,18 +408,16 @@ display: grid;
 .karriere__jobbox1{
   background-color: var(--clr-box);
   color: var(--clr-base); 
-  height: 20em;
+  height: 18em;
   text-align: left;
   margin-left: 10%;
-  margin-right: 10%;
-  
-  
-  
+  margin-right: 10%; 
 }
+
 .karriere__jobbox1 img{
-  width: 15%;
+  width: 14%;
   margin-right: 15em;
-  margin-top: 1em;
+  margin-top: 0.7em;
   float: left;
   position: absolute;
 }
@@ -445,13 +432,13 @@ display: grid;
   color: var(--clr-box);
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 15px;
+  font-size: 14px;
   overflow: hidden;
   transition: 0.2s;
   border-radius: 20px;
   cursor: pointer;
   font-weight: bold;
-  margin-right:  3em;
+  margin-right: 3em;
   margin-top: 22em;
 } 
 
@@ -463,8 +450,8 @@ display: grid;
   margin-left: 15em;
 
   font-size: var(--fs-h2);
-  
 }
+
 .karriere__jobbox-text{
   position: relative;
   margin-left: 17.4em;
@@ -472,16 +459,15 @@ display: grid;
   text-align: left;
 }
 
-
 .karriere__jobbox2{
   background-color: var(--clr-box);
   color: var(--clr-base); 
   height: 20em;
   text-align: left;
   margin-left: 10%;
-  margin-right: 10%;
-  
+  margin-right: 10%; 
 }
+
 .karriere__jobbox2 img{
   width: 8%;
   margin-left: 5em;
@@ -518,7 +504,6 @@ display: grid;
   margin-left: 15em;
   text-align: center;
   font-size: var(--fs-h2);
-  
 }
 
 .karriere__jobbox_title2 p{
@@ -530,7 +515,15 @@ display: grid;
   margin-left: 10em;
   text-align: left;
   margin-top: 10em;
-  
+}
+
+.karriere__jobbox_title2{
+  background-color: var(--clr-box2);
+  color: var(--clr-base);
+  margin-top: 5em;
+  margin-left: 15em;
+  text-align: center;
+  font-size: var(--fs-h2);
 }
 
 .karriere__jobbox3{
@@ -540,8 +533,8 @@ display: grid;
   text-align: left;
   margin-left: 10%;
   margin-right: 10%;
-  
 }
+
 .karriere__jobbox3 img{
   width: 8%;
   margin-left: 5em;
@@ -549,7 +542,6 @@ display: grid;
   float: left;
   position: absolute;
 }
-
 
 .karriere__jobbox3-btn{
   background-color: var(--clr-box_btn);
@@ -570,22 +562,11 @@ display: grid;
   margin-top: 15em;
 }
 
-.karriere__jobbox_title2{
-  background-color: var(--clr-box2);
-  color: var(--clr-base);
-  margin-top: 5em;
-  margin-left: 15em;
-  text-align: center;
-  font-size: var(--fs-h2);
-  
-}
-
 .karriere__jobbox3-text{
   position: relative;
   margin-left: 10em;
   text-align: left;
   margin-top: 10em;
-  
 }
 
 .karriere__jobbox4{
@@ -595,8 +576,8 @@ display: grid;
   text-align: left;
   margin-left: 10%;
   margin-right: 10%;
-  
 }
+
 .karriere__jobbox4 img{
   width: 8%;
   margin-left: 5em;
@@ -604,7 +585,6 @@ display: grid;
   float: left;
   position: absolute;
 }
-
 
 .karriere__jobbox4-btn{
   background-color: var(--clr-box_btn);
@@ -624,24 +604,13 @@ display: grid;
   margin-right:  3em;
   margin-top: 15em;
 }
-.karriere__jobbox_title2{
-  background-color: var(--clr-box2);
-  color: var(--clr-base);
-  margin-top: 5em;
-  margin-left: 15em;
-  text-align: center;
-  font-size: var(--fs-h2);
-  
-}
 
 .karriere__jobbox4-text{
   position: relative;
   margin-left: 10em;
   text-align: left;
   margin-top: 10em;
-  
 }
-
 
 .karriere__jobbox5{
   background-color: var(--clr-box);
@@ -650,8 +619,8 @@ display: grid;
   text-align: left;
   margin-left: 10%;
   margin-right: 10%;
-  
 }
+
 .karriere__jobbox5 img{
   width: 8%;
   margin-left: 5em;
@@ -659,7 +628,6 @@ display: grid;
   float: left;
   position: absolute;
 }
-
 
 .karriere__jobbox5-btn{
   background-color: var(--clr-box_btn);
@@ -680,23 +648,12 @@ display: grid;
   margin-top: 15em;
 }
 
-.karriere__jobbox_title2{
-  background-color: var(--clr-box2);
-  color: var(--clr-base);
-  margin-top: 5em;
-  margin-left: 15em;
-  text-align: center;
-  font-size: var(--fs-h2);
-  
-}
 .karriere__jobbox5-text{
   position: relative;
   margin-left: 10em;
   text-align: left;
-  margin-top: 10em;
-  
+  margin-top: 10em; 
 }
-
 
 .karriere__jobbox6{
   background-color: var(--clr-box);
@@ -705,8 +662,8 @@ display: grid;
   text-align: left;
   margin-left: 10%;
   margin-right: 10%;
-  
 }
+
 .karriere__jobbox6 img{
   width: 8%;
   margin-left: 5em;
@@ -714,7 +671,6 @@ display: grid;
   float: left;
   position: absolute;
 }
-
 
 .karriere__jobbox6-btn{
   background-color: var(--clr-box_btn);
@@ -734,24 +690,13 @@ display: grid;
   margin-right:  3em;
   margin-top: 15em;
 }
-.karriere__jobbox_title2{
-  background-color: var(--clr-box2);
-  color: var(--clr-base);
-  margin-top: 5em;
-  margin-left: 15em;
-  text-align: center;
-  font-size: var(--fs-h2);
-  
-}
 
 .karriere__jobbox6-text{
   position: relative;
   margin-left: 10em;
   text-align: left;
   margin-top: 10em;
-  
 }
-
 
 .karriere__jobbox7{
   background-color: var(--clr-box);
@@ -760,8 +705,8 @@ display: grid;
   text-align: left;
   margin-left: 10%;
   margin-right: 10%;
-  
 }
+
 .karriere__jobbox7 img{
   width: 8%;
   margin-left: 5em;
@@ -769,7 +714,6 @@ display: grid;
   float: left;
   position: absolute;
 }
-
 
 .karriere__jobbox7-btn{
   background-color: var(--clr-box_btn);
@@ -789,22 +733,12 @@ display: grid;
   margin-right:  3em;
   margin-top: 15em;
 }
-.karriere__jobbox_title2{
-  background-color: var(--clr-box2);
-  color: var(--clr-base);
-  margin-top: 5em;
-  margin-left: 10em;
-  text-align: center;
-  font-size: var(--fs-h2);
-  
-}
 
 .karriere__jobbox7-text{
   position: relative;
   margin-left: 10em;
   text-align: left;
   margin-top: 10em;
-  
 }
 
 .karriere__cv-box-container{
@@ -812,8 +746,6 @@ display: grid;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 5em;
-  
-  
 }
 
 .karriere__cv-box {
@@ -823,7 +755,6 @@ display: grid;
   width: 30em;
   margin-left: 6.3em;
   margin-right: 1em;
-  
 }
 
 .karriere__jobagent{
@@ -833,7 +764,6 @@ display: grid;
   width: 30em;
   margin-right: 6.3em;
   margin-left: 1em;
-  
  } 
 
 .karriere__cv-box p, .karriere__jobagent  p{
@@ -867,13 +797,10 @@ display: grid;
   font-weight: bold;
   width: 60%;
 }
+    /* KARIIERE SLUT */
 
 
-
- /* KARIIERE SLUT */
-
-
-    /* FOOTER */ 
+    /* FOOTER START*/ 
 .footer{
     background: var(--clr-box);
 }
@@ -885,21 +812,19 @@ display: grid;
   gap: 0.5em;
   color: var(--clr-base);
   place-items: center;
-  
 }
 
 .footer__grid-item{
   grid-column-start: 1;
   grid-column-end: 2;
-
 }
 
 .footer__grid-container img{
  width: 35%;
  margin-top: 20px;
  margin-left: 3.7em;
-
 }
+
 .footer__grid-container p{
   place-items: center;
   font-size: var(--fs-footer);
@@ -914,13 +839,10 @@ display: grid;
 
 .footer__grid-item4{
   transform: rotate(-10 50 100);
-  
 }
+    /* FOORTER SLUT */ 
 
-
-
-
-/*MODAL START */ 
+    /*MODAL START */ 
 #myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -983,6 +905,7 @@ box-shadow: 0px 0px 50px -6px #000;
   font-weight: bold;
   transition: 0.3s; 
 }
+
 .prevBtn{
   position: absolute;
   top: 125px;
@@ -992,6 +915,7 @@ box-shadow: 0px 0px 50px -6px #000;
   font-weight: bold;
   transition: 0.3s; 
 }
+
 .close:hover,
 .close:focus {
   color: #bbb;
@@ -1005,6 +929,4 @@ box-shadow: 0px 0px 50px -6px #000;
       width: 100%;
   }
 }
-
-
-/*MODAL SLUT */ 
+    /*MODAL SLUT */ 
