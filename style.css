@@ -28,7 +28,6 @@
     --fs-h3:     0.7rem;
     --fs-body:   0.7rem;
     --fs-footer: 0.5rem;
-
 }
 
 @media (min-width: 800px) {
@@ -86,6 +85,9 @@ h3 { font-size: var(--fs-h3) }
 
     .cases__grid-item img{
       width: 100%;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-bottom: 1em;
     }
 
     .cases__grid-item{
@@ -102,8 +104,8 @@ h3 { font-size: var(--fs-h3) }
       grid-template-rows: repeat(2, 1fr);
       background-color: var(--clr-infobox);
       width: 100%;
-
     }
+
     .cases__infobox-item1{
       display: grid;
       place-items: center;
@@ -172,21 +174,24 @@ h3 { font-size: var(--fs-h3) }
       border: none;
       outline: none;
       padding: 12px 16px;
-      background-color: #f1f1f1;
+      background-color: var(--clr-base);
       cursor: pointer;
+      font-family: var(--ff-primary);
+      margin-bottom: 0.7em;
+      margin-left: 0.7em;
     } 
     
     /* Add a light grey background on mouse-over */
     .btn:hover {
-      background-color: #ddd;
+      background-color: var(--clr-box2)
     }
      
     /* Add a dark background to the active button */
      .btn.active {
-      background-color: #666;
-      color: white;
+      background-color:var(--clr-box);
+      color: var(--clr-infobox);
     } 
-/* sorting end */
+      /* sorting end */
 
 .cases_details__grid-container{
   grid-template-columns: repeat(1, 1fr);
@@ -197,7 +202,7 @@ h3 { font-size: var(--fs-h3) }
  .cases__galleri-title{
   text-align: center;
   font-size: var(--fs-h2);
-  --fx-bold: 900; 
+  font-weight: var(--fx-bold);
   color: var(--clr-txt);
  }
 
