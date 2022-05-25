@@ -2192,10 +2192,10 @@ color: var(--clr-txt);
   background-color: #B8C7CB;
 }
 .styleguide__main-title{
-  margin-left: 50%;
-  margin-right: 50%;
   font-size: var(--fs-h1);
-  text-align: left;
+  font-family: var(--ff-primary);
+  display: flex;
+  justify-content: center;
   white-space: nowrap;
   
 }
@@ -2203,7 +2203,7 @@ color: var(--clr-txt);
  position: relative;
  width: 7%;
  margin-top: 1em;
- margin-left: 1em;
+ margin-left: 3em;
 }
 .styleguide__nav-menu{
   display: flex;
@@ -2230,11 +2230,16 @@ color: var(--clr-txt);
 }
 
 .styleguide__searchbar{
-  display: grid;
   place-items: center;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
+.styleguide__index-txt{
+margin-left: 25%;
+margin-right: 25%;
+}
 
 /**************** STYLE GUIDE SLUT ****************/
 
