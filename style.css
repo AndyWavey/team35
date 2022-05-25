@@ -290,7 +290,7 @@ display: grid;
   position: absolute;
   top: 50%;
   left: 50%;
-  min-height: 100%; 
+  min-height: 100%;
   min-width: 100%;
   z-index: -100;
   transform: translateY(-50%) translateX(-50%);
@@ -359,7 +359,7 @@ display: grid;
 
 .header__button-call-to-action:hover{
   box-shadow: 0 0 10px #ff5b4c , 0 0 25px #ff5b4c, 0 0 50px #ff5b4c;
-  transition-delay: 0.1s;
+ transition-delay: 0.1s;
 }
 
 .header__hero-title{
@@ -375,8 +375,7 @@ display: grid;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 95%;
-  
+  max-width: 90%;
 }
 
     /* header slut */ 
@@ -945,3 +944,447 @@ box-shadow: 0px 0px 50px -6px #000;
   }
 }
     /*MODAL SLUT */ 
+
+    
+
+    /* Mobile version - Karriere side */
+
+    @media (max-width: 600px) {
+
+      .karriere__text1{
+        text-align: left;
+      }
+      
+      .karriere__text2{
+        text-align: center;
+        font-weight: 400;
+        font-size: var (--fs-h3); 
+      }
+      
+      .karriere__text3{
+        font-weight: 400;
+        text-align: left;
+      }
+      
+      .karriere__artikel-btn{
+        float:right;
+        padding: 1em 1.8em;
+        outline: none;
+        border: none;
+        background-color: var(--clr-box);
+        color: var(--clr-base);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 15px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right:  10rem;
+      }
+      
+      .karriere__title{
+        margin-top: 3em;
+        text-align: center;
+      }
+      
+      
+      .karriere__jobbox1{
+        background-color: var(--clr-box);
+        color: var(--clr-base); 
+        height: 18em;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%; 
+      }
+      
+      .karriere__jobbox1 img{
+        width: 14%;
+        margin-right: 15em;
+        margin-top: 0.7em;
+        float: left;
+        position: absolute;
+      }
+      
+      
+      .karriere__jobbox-btn{
+        background-color: var(--clr-box_btn);
+        float:right;
+        padding: 1em 1.8em;
+        outline: none;
+        border: none;
+        color: var(--clr-box);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 14px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right: 3em;
+        margin-top: 22em;
+      } 
+      
+      .karriere__jobbox_title2{
+        
+        top: 2em;
+        background-color: var(--clr-box2);
+        color: var(--clr-base);
+        margin-left: 5em;
+      
+        font-size: var(--fs-h2);
+      }
+      
+      .karriere__jobbox-text{
+        position: relative;
+        margin-left: 17.4em;
+        top: 4em;
+        text-align: left;
+      }
+      
+      .karriere__jobbox2{
+        background-color: var(--clr-box);
+        color: var(--clr-base); 
+        height: 20em;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%; 
+      }
+      
+      .karriere__jobbox2 img{
+        width: 8%;
+        margin-left: 5em;
+        margin-top: 1em;
+        float: left;
+        position: absolute;
+      }
+      
+      
+      .karriere__jobbox2-btn{
+        background-color: var(--clr-box_btn);
+        float:right;
+        padding: 1em 1.8em;
+        outline: none;
+        border: none;
+        color: var(--clr-box);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 15px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right:  3em;
+        margin-top: 15em;
+      }
+      
+      .karriere__jobbox_title2{
+        position: relative;
+        background-color: var(--clr-box2);
+        color: var(--clr-base);
+        margin-top: 5em;
+        margin-left: 15em;
+        text-align: center;
+        font-size: var(--fs-h2);
+      }
+      
+      .karriere__jobbox_title2 p{
+        margin-top: 5em;
+      }
+      
+      .karriere__jobbox2-text{
+        position: relative;
+        margin-left: 10em;
+        text-align: left;
+        margin-top: 10em;
+      }
+      
+      .karriere__jobbox_title2{
+        background-color: var(--clr-box2);
+        color: var(--clr-base);
+        margin-top: 5em;
+        margin-left: 15em;
+        text-align: center;
+        font-size: var(--fs-h2);
+      }
+      
+      .karriere__jobbox3{
+        background-color: var(--clr-box);
+        color: var(--clr-base); 
+        height: 20em;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      
+      .karriere__jobbox3 img{
+        width: 8%;
+        margin-left: 5em;
+        margin-top: 1em;
+        float: left;
+        position: absolute;
+      }
+      
+      .karriere__jobbox3-btn{
+        background-color: var(--clr-box_btn);
+        float:right;
+        padding: 1em 1.8em;
+        outline: none;
+        border: none;
+        color: var(--clr-box);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 15px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right:  3em;
+        margin-top: 15em;
+      }
+      
+      .karriere__jobbox3-text{
+        position: relative;
+        margin-left: 10em;
+        text-align: left;
+        margin-top: 10em;
+      }
+      
+      .karriere__jobbox4{
+        background-color: var(--clr-box);
+        color: var(--clr-base); 
+        height: 20em;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      
+      .karriere__jobbox4 img{
+        width: 8%;
+        margin-left: 5em;
+        margin-top: 1em;
+        float: left;
+        position: absolute;
+      }
+      
+      .karriere__jobbox4-btn{
+        background-color: var(--clr-box_btn);
+        float:right;
+        padding: 1em 1.8em;
+        outline: none;
+        border: none;
+        color: var(--clr-box);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 15px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right:  3em;
+        margin-top: 15em;
+      }
+      
+      .karriere__jobbox4-text{
+        position: relative;
+        margin-left: 10em;
+        text-align: left;
+        margin-top: 10em;
+      }
+      
+      .karriere__jobbox5{
+        background-color: var(--clr-box);
+        color: var(--clr-base); 
+        height: 20em;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      
+      .karriere__jobbox5 img{
+        width: 8%;
+        margin-left: 5em;
+        margin-top: 1em;
+        float: left;
+        position: absolute;
+      }
+      
+      .karriere__jobbox5-btn{
+        background-color: var(--clr-box_btn);
+        float:right;
+        padding: 1em 1.8em;
+        outline: none;
+        border: none;
+        color: var(--clr-box);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 15px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right:  3em;
+        margin-top: 15em;
+      }
+      
+      .karriere__jobbox5-text{
+        position: relative;
+        margin-left: 10em;
+        text-align: left;
+        margin-top: 10em; 
+      }
+      
+      .karriere__jobbox6{
+        background-color: var(--clr-box);
+        color: var(--clr-base); 
+        height: 20em;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      
+      .karriere__jobbox6 img{
+        width: 8%;
+        margin-left: 5em;
+        margin-top: 1em;
+        float: left;
+        position: absolute;
+      }
+      
+      .karriere__jobbox6-btn{
+        background-color: var(--clr-box_btn);
+        float:right;
+        padding: 1em 1.8em;
+        outline: none;
+        border: none;
+        color: var(--clr-box);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 15px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right:  3em;
+        margin-top: 15em;
+      }
+      
+      .karriere__jobbox6-text{
+        position: relative;
+        margin-left: 10em;
+        text-align: left;
+        margin-top: 10em;
+      }
+      
+      .karriere__jobbox7{
+        background-color: var(--clr-box);
+        color: var(--clr-base); 
+        height: 20em;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      
+      .karriere__jobbox7 img{
+        width: 8%;
+        margin-left: 5em;
+        margin-top: 1em;
+        float: left;
+        position: absolute;
+      }
+      
+      .karriere__jobbox7-btn{
+        background-color: var(--clr-box_btn);
+        float:right;
+        padding: 1em 1.8em;
+        outline: none;
+        border: none;
+        color: var(--clr-box);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 15px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-right:  3em;
+        margin-top: 15em;
+      }
+      
+      .karriere__jobbox7-text{
+        position: relative;
+        margin-left: 10em;
+        text-align: left;
+        margin-top: 10em;
+      }
+      
+      .karriere__cv-box-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 5em;
+      }
+      
+      .karriere__cv-box {
+        background-color: var(--clr-box_btn);
+        color: var(--clr-box);
+        height: 20em;
+        width: 30em;
+        margin-left: 6.3em;
+        margin-right: 1em;
+      }
+      
+      .karriere__jobagent{
+        background-color: var(--clr-box_btn);
+        color: var(--clr-box);
+        height: 20em;
+        width: 30em;
+        margin-right: 6.3em;
+        margin-left: 1em;
+       } 
+      
+      .karriere__cv-box p, .karriere__jobagent  p{
+        margin-top: 2em;
+        margin-left: 20%;
+        margin-right: 20%;
+        font-size: var(--fs-body);
+        width: 60%;
+      }
+      
+      .karriere__cv-box-titel{
+        margin-left: 17%;
+        font-weight: var(--fx-bold);
+      }
+      
+      .karriere__cv-box--btn{
+        margin-left: 20%;
+        margin-top: 5em;
+        padding: 1em 1.8em;
+        outline: none;
+        border: none;
+        background-color: var(--clr-accent);
+        color: var(--clr-base);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 15px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        width: 60%;
+      }
+    
+          
+    
+    
+    
+    }
