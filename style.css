@@ -70,7 +70,7 @@ h3 { font-size: var(--fs-h3) }
 
 
 
-    /* CASES */ 
+    /* CASES START */ 
     .main__title{
       text-align: center;
     }
@@ -88,6 +88,8 @@ h3 { font-size: var(--fs-h3) }
       padding-left: 1em;
       padding-right: 1em;
       padding-bottom: 1em;
+      justify-content: space-between;
+      display: grid;
     }
 
     .cases__grid-item{
@@ -165,6 +167,7 @@ h3 { font-size: var(--fs-h3) }
     
     /* sorting  */
     /* The "show" class is added to the filtered elements */
+    
     .show {
       display: block;
     } 
@@ -177,8 +180,8 @@ h3 { font-size: var(--fs-h3) }
       background-color: var(--clr-base);
       cursor: pointer;
       font-family: var(--ff-primary);
-      margin-bottom: 0.7em;
-      margin-left: 0.7em;
+      margin-bottom: 2em;
+      margin-left: 1.7em;
     } 
     
     /* Add a light grey background on mouse-over */
@@ -280,6 +283,7 @@ display: grid;
   overflow: hidden;
   position: relative;
 }
+
 .karriere__hero-video{
   position: absolute;
   top: 50%;
@@ -302,6 +306,7 @@ display: grid;
   margin-right: 2.5em;
 }
 
+    /* header start */ 
 
 .header__nav-menu-logo{
   float: left; 
@@ -370,6 +375,8 @@ display: grid;
   margin-right: auto;
   max-width: 90%;
 }
+
+    /* header slut */ 
 
 .karriere__text1{
   text-align: left;
