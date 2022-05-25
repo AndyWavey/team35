@@ -333,7 +333,6 @@ display: grid;
 }
     /* CASES SLUT */ 
 
-    /* KARRIERE */ 
     
     /* HEADER */
 .header__nav-menu-container{
@@ -345,6 +344,8 @@ display: grid;
     top: 0;
     width: 100%;
 }
+
+    /* KARRIERE */ 
 
 .karriere__video__container{
   height: 500px;
@@ -421,11 +422,6 @@ display: grid;
   cursor: pointer;
   font-weight: bold;
   margin-right:  10rem;
-}
-
-.header__button-call-to-action:hover{
-  box-shadow: 0 0 10px #ff5b4c , 0 0 25px #ff5b4c, 0 0 50px #ff5b4c;
- transition-delay: 0.1s;
 }
 
 .header__hero-title{
