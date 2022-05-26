@@ -2284,7 +2284,7 @@ margin-right: 25%;
 }
 
 .styleguide__farve-2{
-  background-color: #ff5b4c;
+  background-color: #666565;
   color:black;
   width: 70em;
   height: 4em;
@@ -2293,7 +2293,7 @@ margin-right: 25%;
 }
 
 .styleguide__farve-3{
-  background-color: var(--clr-box);
+  background-color: #ff5b4c;
   color: black;
   width: 70em;
   height: 4em;
