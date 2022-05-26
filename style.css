@@ -2248,7 +2248,7 @@ margin-right: 25%;
 .styleguide__farver-knapper button{
   background-color: var(--clr-box);
   width: 5em;
-  height: 3em;
+  height: 2em;
   font-family: var(--ff-primary);
   font-size: 1em;
   text-decoration: none;
