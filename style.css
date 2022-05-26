@@ -2243,7 +2243,7 @@ margin-right: 25%;
   grid-column-start: 5;
   grid-column-end: 6;
   color: var(--clr-base);
-
+  color: inherit;
 }
 .styleguide__farver-knapper button{
   background-color: var(--clr-box);
@@ -2265,8 +2265,8 @@ margin-right: 25%;
 } 
 
 .styleguide__farver-items-title{
-  grid-column-start: 5;
-  grid-column-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 3;
 
 }
 
@@ -2335,6 +2335,105 @@ margin-right: 25%;
   height: 4em;
   text-align: center;
   border: 2px solid black;
+}
+
+
+#copy-text-btn-1{
+  background-color: #282828;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor:auto;
+  float: right;
+}
+
+#copy-text-btn-2{
+  background-color: #282828;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor:auto;
+  float: right;
+}
+
+#copy-text-btn-3{
+  background-color: #282828;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor:auto;
+  float: right;
+}
+
+#copy-text-btn-4{
+  background-color: #282828;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor:auto;
+  float: right;
+}
+
+#copy-text-btn-5{
+  background-color: #282828;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor:auto;
+  float: right;
+}
+
+#copy-text-btn-6{
+  background-color: #282828;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor:auto;
+  float: right;
+}
+
+#copy-text-btn-7{
+  background-color: #282828;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor:auto;
+  float: right;
 }
 /**************** STYLE GUIDE SLUT ****************/
 
