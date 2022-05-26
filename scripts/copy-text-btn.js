@@ -1,5 +1,3 @@
-//*Knap kopier P*//
-
 function copyText(htmlElement)
 {
   if (!htmlElement){
@@ -22,65 +20,65 @@ function ()
 {
   copyText(document.querySelector('#text-1'));
 
-  alert("Hex kode kopiret")
+  alert("kode kopiret")
 }
 
-//*Knap kopier lyseblå*//
+//*Knap kopier Pentia Dusk*//
 
 document.querySelector('#copy-text-btn-2').onclick =
 function ()
 {
   copyText(document.querySelector('#text-2'));
 
-  alert("Hex kode kopiret")
+  alert("kode kopiret")
 }
 
-//*Knap kopier lyserød*//
+//*Knap kopier Pentia Neon*//
 
 document.querySelector('#copy-text-btn-3').onclick =
 function ()
 {
   copyText(document.querySelector('#text-3'));
 
-  alert("Hex kode kopiret")
+  alert("kode kopiret")
 }
 
-//*Knap kopier lysegul*//
+//*Knap kopier Pentia Octane*//
 
 document.querySelector('#copy-text-btn-4').onclick =
 function ()
 {
   copyText(document.querySelector('#text-4'));
 
-  alert("Hex kode kopiret")
+  alert("kode kopiret")
 }
 
-//*Knap kopier rød*//
+//*Knap kopier Pentia Octane opacity: 50%*//
 
 document.querySelector('#copy-text-btn-5').onclick =
 function ()
 {
   copyText(document.querySelector('#text-5'));
 
-  alert("Hex kode kopiret")
+  alert("kode kopiret")
 }
 
-//*Knap kopier hvid*//
+//*Knap kopier Pentia Octane opacity: 25%*//
 
 document.querySelector('#copy-text-btn-6').onclick =
 function ()
 {
   copyText(document.querySelector('#text-6'));
 
-  alert("Hex kode kopiret")
+  alert("kode kopiret")
 }
 
-//*Knap kopier hvid*//
+//*Knap kopier Pentia Grey//
 
 document.querySelector('#copy-text-btn-7').onclick =
 function ()
 {
   copyText(document.querySelector('#text-7'));
 
-  alert("Hex kode kopiret")
+  alert("kode kopiret")
 }
