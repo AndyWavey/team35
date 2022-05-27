@@ -2755,7 +2755,30 @@ margin-right: 25%;
  margin-left: 25%;
 }
 
+.styleguide__menu-grid-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1em;
+  margin: 1em;
+}
 
+.styleguide-menu-1{
+  grid-column-start: 4;
+  grid-column-end:5;
+}
+
+.styleguide-menu-1 img{
+  width: 40em;
+}
+
+.styleguide-menu-2{
+  grid-column-start: 4;
+  grid-column-end:5;
+}
+
+.styleguide-menu-2 img{
+  width: 15em;
+}
 /**************** STYLE GUIDE SLUT ****************/
 
 
