@@ -343,6 +343,7 @@ display: grid;
     text-align: center;
     top: 0;
     width: 100%;
+    
 }
 
 .hamburger{
@@ -368,6 +369,7 @@ display: grid;
 @media(max-width:768px){
   .hamburger{
       display: block;
+      /* position: absolute; */
   } 
   
   .hamburger.active .bar:nth-child(2){
@@ -380,21 +382,21 @@ display: grid;
       transform: translateY(-8px) rotate(-45deg);      
 }
 
-.header__nav-menu-items{
-  position:fixed; 
+ .header__nav-menu-items{
+  position: fixed;
   display: flex;
   justify-content: center;
-  gap: 20px;
   top: -50%;
   left: 0;
   padding-bottom: 35px;
   flex-direction: column;
   background-color:hsl(189, 18%, 51%, .7);
   width: 100%;
-  text-align: center;
+  text-align:justify;
   transition: 0.5s ease-in;
   
-}
+  
+} 
 
 .header__nav-menu-items{
   margin: 16px 0;
