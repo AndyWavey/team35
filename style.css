@@ -389,10 +389,11 @@ display: grid;
   left: 0;
   padding-bottom: 35px;
   flex-direction: column;
-  background-color: var(--clr-box2);
+  background-color:hsl(189, 18%, 51%, .7);
   width: 100%;
   text-align: center;
   transition: 0.5s ease-in;
+  
 }
 
 .header__nav-menu-items{
