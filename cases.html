@@ -8,7 +8,8 @@
 
     <link rel="stylesheet" href="style.css">
     <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
-   
+
+    <script src="scripts/form1.js" defer></script> 
     <script src="scripts/modals.js" defer></script> 
     <script src="scripts/sorting.js" defer></script>
     <script src="scripts/galleri.js" defer></script>
@@ -195,11 +196,47 @@
         
             <div class="cases__infobox-item1"><img src="images/ikoner/ikoner/mailsymbol.png " alt="mail symbol"></div>
             <div class="cases__infobox-item2"><img src="images/ikoner/ikoner/telefonsymbol.png" alt="telefon symbol"></div>
-            <div class="cases__infobox-item3"><button  type="button" class="cases__button-call-to-action">NYHEDSBREV</button></div>
+            <div class="cases__infobox-item3"><button data-modal-target="#modal" type="button" class="cases__button-call-to-action">NYHEDSBREV</button></div>
             <div class="cases__infobox-item4"><button  type="button" class="cases__button-call-to-action">RING MIG OP</button></div>
 
     </div>
-    
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <button data-close-button class="close-button">&times;</button>
+    </div>
+
+
+    <div class="modal-body">
+      <form id="regForm">
+        <h1>Nyhedsbrev</h1>
+        <!-- One "tab" for each step in the form: -->
+        <div class="tab">Indtast Navn:
+          <p><input placeholder="Fornavn..." oninput="this.className = ''" name="fname"></p>
+          <p><input placeholder="Efternavn..." oninput="this.className = ''" name="lname"></p>
+        </div>
+        <div class="tab">Indtast Email:
+          <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
+  </div>
+      
+       
+  <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Tilbage</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)">Næste</button>
+    </div>
+  </div>
+  
+        <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+      <span class="step"></span>
+      <span class="step"></span>
+  </div>
+  </form>
+  
+  </div>
+  </div>
+  
+  <div id="overlay"></div>
     
 <!-- footer -->
 <footer class="footer"> 
