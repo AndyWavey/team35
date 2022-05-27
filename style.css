@@ -2181,6 +2181,14 @@ color: var(--clr-txt);
   white-space: nowrap;
 
 }
+
+.styleguide__sub-title{
+  font-size: var(--fs-h3);
+  font-family: var(--ff-primary);
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
 .styleguide__header-logo img{
  position: relative;
  width: 7%;
@@ -2434,6 +2442,66 @@ margin-right: 25%;
   border-radius: 3px;
   cursor:auto;
   float: right;
+}
+
+.styleguide__txt-area{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+}
+
+#text-h1{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.txt-area-title{
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  color: var(--clr-txt);
+}
+
+.eksempel-text{
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.eksempel-text p {
+  text-align: center;
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+.eksempel-text-h1{
+  font-size: var(--fs-h1);
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.eksempel-text-h2{
+  font-size: var(--fs-h2);
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.eksempel-text-h3{
+  font-size: var(--fs-h3);
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+
+.eksempel-text-body{
+  
+  font-size: var(--fs-body);
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.eksempel-text-footer{
+  
+  font-size: var(--fs-footer);
+  grid-column-start: 4;
+  grid-column-end: 5;
 }
 /**************** STYLE GUIDE SLUT ****************/
 

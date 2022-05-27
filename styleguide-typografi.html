@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+  
+<head>
+    <meta charset="utf-8">
+    <title>Styleguide Pentia</title>
+    <link rel="stylesheet" href="style.css">
+      
+    <script type="text/javascript" src="scripts/search.js" defer></script>
+    
+  </head>
+  
+  <body>
+    <header>
+
+      <div class="styleguide__header">
+          <div class="styleguide__header-logo"><img src="images/Logoer/pentia_logo_vertical-04.svg" alt="pentia logo">
+        </div>
+    </div>
+
+    <nav class="styleguide__nav-menu">
+      <ul><img class="styleguide__ikoner" src="images/Ikoner til styleguide/forside.png" alt="forside ikon"><a href="styleguide.html">Forside</a></ul>
+      <ul> <img class="styleguide__ikoner" src="images/Ikoner til styleguide/farver.png" alt="forside ikon"><a href="styleguide-farver-hex.html">Farver</a></ul>
+      <ul><img class="styleguide__ikoner" src="images/Ikoner til styleguide/typografi.png" alt="forside ikon"><a href="styleguide-typografi.html">Typografi</a></ul>
+      <ul><img class="styleguide__ikoner" src="images/Ikoner til styleguide/knapper.png" alt="forside ikon"><a href="">Knapper</a></ul>
+      <ul><img class="styleguide__ikoner" src="images/ikoner/odense.png" alt="forside ikon"><a href="">Ikoner</a></ul>
+      <ul><img class="styleguide__ikoner" src="images/Logoer/pentia_logo_vertical-03.svg" alt="forside ikon"><a href="">Logoer</a></ul>
+      <ul><img class="styleguide__ikoner" src="images/Ikoner til styleguide/menu.png" alt="forside ikon"><a href="">Menu</a></ul>
+    </nav>
+  </header>
+  <main>
+    <div class="styleguide__main-title">
+        <h1>TYPOGRAFI</h1>
+    </div>
+
+    <div class="styleguide__sub-title">
+        <h3>Der bruges "'Gotham Light', sans-serif" som skrifttype</h3>
+    </div>
+
+        <div class="styleguide__txt-area">
+            <p class="txt-area-title">Dette er styling for h1, h2 & h3</p>
+            <p class="txt-area-title"> 
+                H1:       2rem; <br>
+                H2:    1.25rem; <br>
+                H3:     0.7rem;</p>
+        <textarea id="text-h1" cols="30" rows="10">
+            Dette kommer fra custom properies (:root)
+
+            --fs-h1:       2rem;
+            --fs-h2:    1.25rem;
+            --fs-h3:     0.7rem;
+
+            h1,
+            h2,
+            h3{
+              line-height: 1.1;
+              margin: 50px;
+              padding: 10px;
+            }
+
+            h1 { font-size: var(--fs-h1) }
+            h2 { font-size: var(--fs-h2) }
+            h3 { font-size: var(--fs-h3) }
+        
+        </textarea>
+        <div class="eksempel-text">
+            <p>Dette er eksempel på h1, h2 & h3</p>
+                <h1 class="eksempel-text-h1">H1 - Overskrift</h1>
+                <h2 class="eksempel-text-h2">H2 - Overskrift </h2>
+                <h2 class="eksempel-text-h3">H3 - Overskrift </h2>  
+        </div>
+        </div>
+
+           
+
+
+            <div class="styleguide__txt-area">
+                <p class="txt-area-title">Dette er styling for p(body text) og footer-text</p>
+                <p class="txt-area-title"> 
+                   p: 0.7rem <br>
+                   footer-text: 0.5rem; 
+                </p>
+
+            <textarea id="text-h1" cols="30" rows="10">
+                Dette kommer fra custom properies (:root)
+                
+                --fs-body:   0.7rem;
+                --fs-footer: 0.5rem;
+                
+    
+            
+            </textarea>
+            <div class="eksempel-text">
+                <p>Dette er eksempel på body-text(p) & footer text</p>
+                    <p class="eksempel-text-body"> Body-text(p) - Dette er en tilfædlig tekst der viser størrelsen på body text </p>
+                    <p class="eksempel-text-footer">Footer text: Dette viser størrelsen på footer text</p>  
+            </div>
+            </div>
+
+  </main>
+
+  
+  </body>
+</html>
