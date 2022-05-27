@@ -2670,7 +2670,7 @@ margin-right: 25%;
 
 .styleguide__ikon-2{
   grid-column-start: 3;
-  grid-column-start: 4;
+  grid-column-end: 4;
 }
 
 .styleguide__ikon-2 img{
@@ -2682,8 +2682,80 @@ margin-right: 25%;
   grid-template-columns: repeat(5, 1fr);
   gap: 1em;
   margin: 1em;
+  
+}
+
+.styleguide-logo-1{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: var(--clr-box);
+  color: var(--clr-base);
+  padding: 1em;
 
 }
+
+.styleguide-logo-1 img{
+ width: 50%;
+ margin-left: 25%;
+}
+
+.styleguide-logo-2{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-color: var(--clr-box);
+  color: var(--clr-base);
+  padding: 1em;
+
+}
+
+.styleguide-logo-3 img{
+ width: 50%;
+ margin-left: 25%;
+}
+
+.styleguide-logo-3{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  background-color: var(--clr-box);
+  color: var(--clr-base);
+  padding: 1em;
+
+}
+
+.styleguide-logo-2 img{
+ width: 50%;
+ margin-left: 25%;
+}
+
+.styleguide-logo-4{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  background-color: var(--clr-box);
+  color: var(--clr-base);
+  padding: 1em;
+
+}
+
+.styleguide-logo-4 img{
+ width: 50%;
+ margin-left: 25%;
+}
+
+.styleguide-logo-5{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: var(--clr-box);
+  color: var(--clr-base);
+  padding: 1em;
+
+}
+
+.styleguide-logo-5 img{
+ width: 50%;
+ margin-left: 25%;
+}
+
+
 /**************** STYLE GUIDE SLUT ****************/
 
 
