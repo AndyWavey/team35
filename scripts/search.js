@@ -1,4 +1,4 @@
-let search_terms = ['Tommelise', 'Nattergalen', 'Dyrene i Hakkebakkeskoven', 'Den lille havfrue', 'Klods Hans', 'Hyrdinden og Skorstensfejeren',  'Fyrtøjet'];
+let search_terms = ['Forside', 'Farver', 'Typografi', 'Knapper', 'Ikoner', 'Logoer', 'Menu'];
 
 function autocompleteMatch(input) {
   if (input == '') {
@@ -6,7 +6,7 @@ function autocompleteMatch(input) {
   }
 
   else {
-      'Beklager, intet matchede det du søgte på'
+      ('Beklager, intet matchede det du søgte på')
   }
   let reg = new RegExp(input)
   return search_terms.filter(function(term) {
