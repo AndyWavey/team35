@@ -386,7 +386,7 @@ display: grid;
   position: fixed;
   display: flex;
   justify-content: center;
-  top: -50%;
+  top: -75%;
   left: 0;
   padding-bottom: 35px;
   flex-direction: column;
