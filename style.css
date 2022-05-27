@@ -2505,6 +2505,44 @@ margin-right: 25%;
   grid-column-start: 4;
   grid-column-end: 5;
 }
+
+
+.styleguide__knapper-grid-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.styleguide__knap-1{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.styleguide__knap-2{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.styleguide__knap-3{
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.styleguide__knap-4{
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.styleguide__knap-5{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.styleguide__knap-8{
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+
+
 /**************** STYLE GUIDE SLUT ****************/
 
 
