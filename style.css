@@ -2616,6 +2616,14 @@ margin-right: 25%;
 .styleguide__ikon-2 img{
   width: 50%;
 }
+
+.styleguide__logo-grid-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1em;
+  margin: 1em;
+
+}
 /**************** STYLE GUIDE SLUT ****************/
 
 
