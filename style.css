@@ -2290,6 +2290,8 @@ margin-right: 25%;
   grid-template-columns: repeat(5, 1fr);
   place-items: center;
   color: inherit;
+  gap: 1em;
+  margin: 1em;
 }
 
 .styleguide__farver-knapper{
@@ -2315,6 +2317,8 @@ margin-right: 25%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
+  gap: 1em;
+  margin: 1em;
 } 
 
 .styleguide__farver-items-title{
@@ -2492,7 +2496,8 @@ margin-right: 25%;
 .styleguide__txt-area{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-
+  gap: 1em;
+  margin: 1em;
 }
 
 #text-h1{
@@ -2553,6 +2558,8 @@ margin-right: 25%;
 .styleguide__knapper-grid-container{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  gap: 1em;
+  margin: 1em;
 }
 
 .styleguide__knap-1{
@@ -2584,8 +2591,31 @@ margin-right: 25%;
   grid-column-end: 6;
 }
 
+.styleguide__ikon-grid-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1em;
+  margin: 1em;
+}
+
+.styleguide__ikon-1{
+  grid-column-start: 2;
+  grid-column-start: 3;
+}
+
+.styleguide__ikon-1 img{
+  width: 50%;
+}
 
 
+.styleguide__ikon-2{
+  grid-column-start: 3;
+  grid-column-start: 4;
+}
+
+.styleguide__ikon-2 img{
+  width: 50%;
+}
 /**************** STYLE GUIDE SLUT ****************/
 
 
