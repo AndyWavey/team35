@@ -345,6 +345,63 @@ display: grid;
     width: 100%;
 }
 
+.hamburger{
+  margin-left: 30em;
+  margin-top: 2em;
+  display: none;
+  cursor: pointer;
+
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color:var(--clr-infobox); 
+ 
+}
+
+
+@media(max-width:768px){
+  .hamburger{
+      display: block;
+  } 
+  
+  .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+  .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);      
+}
+
+.header__nav-menu-items{
+  position:fixed; 
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  top: -50%;
+  left: 0;
+  padding-bottom: 35px;
+  flex-direction: column;
+  background-color: var(--clr-box2);
+  width: 100%;
+  text-align: center;
+  transition: 0.5s ease-in;
+}
+
+.header__nav-menu-items{
+  margin: 16px 0;
+}
+
+.header__nav-menu-items.active{
+  top: 70px;
+}}
     /* KARRIERE */
 
 .karriere__video__container{
