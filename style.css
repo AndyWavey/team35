@@ -246,7 +246,7 @@ h3 { font-size: var(--fs-h3) }
       border: none;
       outline: none;
       padding: 12px 16px;
-      background-color: var(--clr-base);
+      background-color: var(--clr-box);
       cursor: pointer;
       font-family: var(--ff-primary);
       margin-bottom: 2em;
