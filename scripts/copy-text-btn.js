@@ -20,8 +20,8 @@ function ()
 {
   copyText(document.querySelector('#text-1'));
 
-  alert("kode kopiret")
-}
+  alert("kode kopiret");
+};
 
 //*Knap kopier Pentia Dusk*//
 
@@ -30,8 +30,8 @@ function ()
 {
   copyText(document.querySelector('#text-2'));
 
-  alert("kode kopiret")
-}
+  alert("kode kopiret");
+};
 
 //*Knap kopier Pentia Neon*//
 
@@ -40,8 +40,8 @@ function ()
 {
   copyText(document.querySelector('#text-3'));
 
-  alert("kode kopiret")
-}
+  alert("kode kopiret");
+};
 
 //*Knap kopier Pentia Octane*//
 
@@ -50,8 +50,8 @@ function ()
 {
   copyText(document.querySelector('#text-4'));
 
-  alert("kode kopiret")
-}
+  alert("kode kopiret");
+};
 
 //*Knap kopier Pentia Octane opacity: 50%*//
 
@@ -60,8 +60,8 @@ function ()
 {
   copyText(document.querySelector('#text-5'));
 
-  alert("kode kopiret")
-}
+  alert("kode kopiret");
+};
 
 //*Knap kopier Pentia Octane opacity: 25%*//
 
@@ -70,8 +70,8 @@ function ()
 {
   copyText(document.querySelector('#text-6'));
 
-  alert("kode kopiret")
-}
+  alert("kode kopiret");
+};
 
 //*Knap kopier Pentia Grey//
 
@@ -80,5 +80,5 @@ function ()
 {
   copyText(document.querySelector('#text-7'));
 
-  alert("kode kopiret")
-}
+  alert("kode kopiret");
+};

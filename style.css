@@ -2277,6 +2277,7 @@ margin-top: 2.71em;
   min-height: 100%;
   position: absolute;
   font-size: var(--fs-h3);
+  
 }
 
 .styleguide__nav-menu a{
@@ -2285,7 +2286,9 @@ margin-top: 2.71em;
   margin-left: 1em;
 
 }
-
+.styleguide__nav-menu li{
+  list-style: none;
+}
 .styleguide__ikoner{
   width: 10%;
 
@@ -2528,6 +2531,10 @@ margin-right: 25%;
 }
 
 #text-h1{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+#text-h2{
   grid-column-start: 3;
   grid-column-end: 4;
 }
