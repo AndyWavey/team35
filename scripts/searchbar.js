@@ -6,7 +6,7 @@ function autocompleteMatch(input) {
   }
 
   else {
-      ('Beklager, intet matchede det du søgte på')
+      ('Beklager, intet matchede det du søgte på');
   }
   let reg = new RegExp(input)
   return search_terms.filter(function(term) {
