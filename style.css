@@ -512,7 +512,7 @@ display: grid;
 .karriere__text2{
   text-align: center;
   font-weight: 400;
-  font-size: var (--fs-h3);
+  font-size: var(--fs-h3);
 }
 
 .karriere__text3{
@@ -949,7 +949,7 @@ display: grid;
  margin-left: 3.7em;
 }
 
-.footer__grid-container p{
+.footer__grid-container{
   place-items: center;
   font-size: var(--fs-footer);
 }
@@ -961,9 +961,6 @@ display: grid;
   text-decoration: none;
 }
 
-.footer__grid-item4{
-  transform: rotate(-10 50 100);
-}
     /* FOORTER SLUT */
 
     /*MODAL START */
@@ -1083,10 +1080,10 @@ box-shadow: 0px 0px 50px -6px #000;
     text-align: left;
   }
   
-  .karriere__text2{
+  .karriere__text2 p{
     text-align: center;
     font-weight: 400;
-    font-size: var (--fs-h3);
+    font-size: var(--fs-h1);
   }
   
   .karriere__text3{
@@ -1535,7 +1532,7 @@ box-shadow: 0px 0px 50px -6px #000;
   .karriere__text2{
     text-align: center;
     font-weight: 400;
-    font-size: var (--fs-h3);
+    font-size: var(--fs-h3);
   }
 
   .karriere__text3{
@@ -1951,7 +1948,7 @@ box-shadow: 0px 0px 50px -6px #000;
 
   .karriere__cv-box-titel{
     margin-left: 17%;
-    font-weight: 9px;
+    font-weight: 900;
   }
 
   .karriere__cv-box--btn{
@@ -2014,10 +2011,6 @@ box-shadow: 0px 0px 50px -6px #000;
   margin-bottom: 7em;
   margin-top: 3.69em;
 }
-
-
-
-
 }
 
 
