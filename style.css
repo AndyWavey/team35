@@ -15,7 +15,6 @@
     --clr-base:     #f6f4f4; /* pentia invisible */
     --clr-txt:      #666565; /* pentia dusk */
     --clr-light:    #5cbfcc; /* pentia aqua */
-    --clr-dark:     #0020bf; /* pentia midnight blue */
     --clr-box:      #6c9299; /* pentia octane */
     --clr-accent:   #ff5b4c; /* pentia neon */
     --clr-box_btn:  #DCE4E5; /* pentia octane 25%*/
@@ -386,7 +385,7 @@ display: grid;
   position: fixed;
   display: flex;
   justify-content: center;
-  top: -75%;
+  top: -50%;
   left: 0;
   padding-bottom: 35px;
   flex-direction: column;
