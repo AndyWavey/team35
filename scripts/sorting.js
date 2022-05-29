@@ -2,7 +2,7 @@
 
 filterSelection("all")
 function filterSelection(c) {
-  var x, i;
+  let x, i;
   x = document.getElementsByClassName("cases__grid-item");
   if (c == "all") c = "";
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
@@ -14,7 +14,7 @@ function filterSelection(c) {
 
 // Show filtered elements
 function w3AddClass(element, name) {
-  var i, arr1, arr2;
+  let i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
@@ -26,7 +26,7 @@ function w3AddClass(element, name) {
 
 // Hide elements that are not selected
 function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
+  let i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
@@ -38,11 +38,11 @@ function w3RemoveClass(element, name) {
 }
 
 // Add active class to the current control button (highlight it)
-var btnContainer = document.getElementById("cases__sorting-container");
-var btns = btnContainer.getElementsByClassName("knap");
-for (var i = 0; i < btns.length; i++) {
+let btnContainer = document.getElementById("cases__sorting-container");
+let btns = btnContainer.getElementsByClassName("knap");
+for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
+    let current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
   });
