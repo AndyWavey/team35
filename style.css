@@ -148,6 +148,7 @@ h3 { font-size: var(--fs-h3) }
       column-gap: 1em;
       row-gap: 1em;
     }
+    
 
     .cases__grid-item img{
       width: 100%;
@@ -1052,6 +1053,14 @@ box-shadow: 0px 0px 50px -6px #000;
 }
     /*MODAL SLUT */
 
+
+
+    .cases__sorting-title{
+      margin-left: 1.7em;
+      font-weight: 900;
+      color: var(--clr-txt);
+      font-size: var(--fs-body);
+    }
 
 
     /* Mobile version - Karriere side */
@@ -2123,16 +2132,16 @@ box-shadow: 0px 0px 50px -6px #000;
 
   /* Style the buttons */
   .btn {
+    background-color: var(--clr-box);
     border: none;
     outline: none;
-    padding: 12px 16px;
-    background-color: var(--clr-base);
+    padding: 6px 8px;
     cursor: pointer;
     font-family: var(--ff-primary);
     margin-bottom: 2em;
     margin-left: 1.7em;
-    font-size: 10px;
-
+    font-size: 5px;
+    
   }
 
   /* Add a light grey background on mouse-over */
@@ -2188,9 +2197,12 @@ color: var(--clr-txt);
 
 #cases__sorting-container {
   font-size: 6px;
+  
 }
 
-
+.cases__sorting-title{
+  font-size: 1em;
+}
 .karriere__hero-video{
   position: absolute;
   top: 50%;
@@ -2432,7 +2444,6 @@ margin-right: 25%;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 3px;
   cursor:auto;
@@ -2446,7 +2457,6 @@ margin-right: 25%;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 3px;
   cursor:auto;
@@ -2460,7 +2470,6 @@ margin-right: 25%;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 3px;
   cursor:auto;
@@ -2474,7 +2483,6 @@ margin-right: 25%;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 3px;
   cursor:auto;
@@ -2488,7 +2496,6 @@ margin-right: 25%;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 3px;
   cursor:auto;
@@ -2502,7 +2509,6 @@ margin-right: 25%;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 3px;
   cursor:auto;
@@ -2516,7 +2522,6 @@ margin-right: 25%;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 3px;
   cursor:auto;
