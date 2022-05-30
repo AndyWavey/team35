@@ -509,7 +509,7 @@ display: grid;
 .karriere__text2{
   text-align: center;
   font-weight: 400;
-  font-size: var(--fs-h3);
+  font-size: var(--fs-h2);
 }
 
 .karriere__text3{
